@@ -1,0 +1,26 @@
+h3{
+    /* color property used to set for foreground */
+    color: rgb(170, 14, 48);  
+    background-color: rgb(15, 151, 151);
+}
+button{
+    color: aliceblue;
+    background: #000;
+    background-color: rgb(23, 112, 137); 
+    /* used to set background color */
+
+    /* background is a shorthand property that allows you to set all the background properties (including the background-color ) in one line. On the other hand, background-color property sets the color of the background of an element. */
+}
+header
+{
+    /* header is a element selector */
+    background-color: #560356;
+}
+main
+{
+    background-color: #0ce5c4;
+}
+footer
+{
+    background-color: #1f5603;
+}

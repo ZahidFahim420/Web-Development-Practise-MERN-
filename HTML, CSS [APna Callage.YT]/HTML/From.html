@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <!-- Notes on GET in method:
+         Appends the form data to the URL, in name/value pairs
+        NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
+        The length of a URL is limited (2048 characters)
+        Useful for form submissions where a user wants to bookmark the result
+        GET is good for non-secure data, like query strings in Google
+
+        Notes on POST in method:
+        Appends the form data inside the body of the HTTP request (the submitted form data is not shown in the URL)
+        POST has no size limitations, and can be used to send large amounts of data.
+        Form submissions with POST cannot be bookmarked -->
+
+        <!-- Tip: Always use POST if the form data contains sensitive or personal information! -->
+        <form action="/action_page.php" target="_self" method="post">
+
+            <label for="project name"><pre>Name:<input type="text" placeholder="Enter your name"></pre></label>
+        
+        
+        <label for="PassWord"><pre>pass:<input type="password" placeholder="Enter your Password"></pre></label>
+
+        <!--  -->
+        <hr>
+
+       
+        <pre><label for="project name">Name:<input type="text" placeholder="Enter your name"></label></pre>
+        
+        
+        <pre><label for="PassWord">pass:<input type="password" placeholder="Enter your Password"></label></pre>
+        
+
+        <!--  -->
+        <!--  -->
+
+    <hr>
+        <input type="radio" value="Male" name="gender" id="101">Male
+        <input type="radio" value="Female" name="gender" id="102">Female
+        <!-- value and fontend text should sync -->
+        <!-- value attribute's value goes to backend only  -->
+        <!--** Notice that each input field must have a name attribute to be submitted.
+        If the name attribute is omitted, the value of the input field will not be sent at all. -->
+
+     <hr>
+
+     <pre>Gender1: <label for="gender"><input type="radio" value="Male" name="gender" id="gender">Male</label><label for="gender1"><input type="radio" value="Female" name="gender" id="gender1">Female</label> </pre>
+    <!-- if we use label then anywhere we click radio button will select but with out label we have to click in circle -->
+
+    <!--** label 'for' and input 'id' must same for above functionality and two radio button's 'for' 'id' they must be diff -->
+
+    <!-- Notice that each input field must have a name attribute to be submitted.
+        If the name attribute is omitted, the value of the input field will not be sent at all. -->
+     
+
+
+     <hr>
+
+     <!-- CheckBox -->
+     <h3>Select your subject:</h3>
+    <Label for="math">
+        <input type="checkbox" value="math" name="subject" id="101">Math</Label>
+
+    <Label for="science">
+        <input type="checkbox" value="science" name="subject" id="102">Science</Label>
+
+    <Label for="Cse">
+        <input type="checkbox" value="Cse" name="subject" id="103">cse</Label>
+
+    <Label for="AI">
+        <input type="checkbox" value="AI" name="subject" id="104">AI</Label>   
+        <hr>
+        <!-- value and fontend text should sync -->
+
+        <!-- Drop Down menu -->
+         <h4>Select your city</h4>
+    <select name="city" id="201">
+        <option value="Cumilla">Cumilla</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Sylhet">Sylhet</option>
+        <option value="CTG">CTG</option>
+    </select>
+
+        <hr><br>
+    <!--  -->
+    <textarea name="feedback" id="101" rows="5" placeholder="Plz give your feedback.."></textarea>
+    <input type="submit" value="submit"  >
+
+        </form>
+
+        
+
+       
+
+    </main>
+
+    <footer> 
+
+    </footer>
+    
+</body>
+</html>

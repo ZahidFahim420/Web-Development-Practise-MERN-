@@ -1,0 +1,20 @@
+*{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Times New Roman';
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* Q3 */
+#outer{
+    font-size:25px;
+    background-color: aquamarine;
+}
+#inner{
+    font-size:20px;
+    background: #d9b4b4;  
+    /*it is a shortend property..the background property is used to set multiple background properties at once, including background-color.  */
+    /* more in bookmark or https://www.shecodes.io/athena/166620-difference-between-background-and-background-color-in-css#:~:text=In%20web%20development%2C%20the%20background,and%20can%20be%20set%20independently. */
+}

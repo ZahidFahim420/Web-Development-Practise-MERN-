@@ -1,0 +1,69 @@
+/* text allign, text-decoration, font-family, font-size */
+
+pre{
+    font-size: 20px;
+}
+/* pre tag are the heading off diff topic */
+
+/* text-Allign */
+h1{
+    text-align:center;
+    /* text-decoration: underline; */
+   text-decoration: line-through;
+}
+p{
+    text-align:left;
+
+}
+#p1{
+    text-align: right;
+}
+/* text allign will effect based on the parent tag if changes was made in child tag */
+
+/* text-decaration */
+#a1{
+    text-decoration: none;
+}
+#a2{
+    text-decoration: underline dotted ;
+
+}
+/* font family, font size */
+#one{
+    font-family: arial;
+}
+#two{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    /* fall back mechanism */
+    /* if any browser didnt recognige first font family then try for second one this continue on priority basis */
+}
+
+/* font-size, line-height */
+#p11{
+    font-size:20px; 
+    /* line-height: 5px; */
+    line-height: normal;
+}
+#p12{
+    font-size: 25px;
+    line-height: 15px;
+}
+#p13{
+    font-size: 10px;
+}
+
+
+/* text-transform */
+.text_transfrom{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    /* text-decoration: none; */
+
+    
+    text-transform: uppercase;
+    text-transform: capitalize;
+
+    /* which comes last are the first priority  */
+    
+}

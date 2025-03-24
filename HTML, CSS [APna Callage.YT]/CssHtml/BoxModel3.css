@@ -1,0 +1,20 @@
+#div{
+    background-color: rgb(204, 69, 69);
+    /* box model below */
+    height: 50px;
+    width: 250px;
+    /* margin-bottom: 15px; */
+    margin: 20px 20px;
+    padding: 5px;
+    border: 5px solid green ; 
+    /*border: is a Shorthand property for setting border width, style, and color. */
+    /* border-color: rgb(225, 232, 0); */
+    /* border-width: 15px; */
+}
+p{
+    background-color: aquamarine;
+    border-style: inset;
+    border-width: 5px;
+    border-color: rgb(65, 220, 255);
+
+}

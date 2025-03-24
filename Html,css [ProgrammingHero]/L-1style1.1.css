@@ -1,0 +1,62 @@
+/* here # bcz p1 is a Id of p tag*/
+#p1{ 
+    color: aqua;
+    background-color: rgb(83, 36, 36);
+    font-size: 20px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* here p is a tag */
+p{
+    color: rgb(142, 18, 111);
+    /* background-color: rgb(213, 35, 29);  given in html file */
+    font-weight: 800;
+     /*font weight for boldness  */
+
+}
+/* here # bcz p2 is a Id of p tag*/
+#p2{
+    color: rgb(45, 7, 33);
+    background-color: chocolate;
+    height: 55px;
+    width: 65%;
+}
+/* here dot . used bcz beiman is class of any tag */
+/* beiman is class   */
+.beiman{
+    color: #124aa5;
+    background-color:cornflowerblue ;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* beiman is class of tags, beiman parents attribute can change later */
+/* tag.className */
+h1.beiman{
+    color:violet ;
+}
+h2.beiman{
+    background-color: bisque;
+    color: black;
+}
+.cls2{
+    font-weight: 700;
+}
+
+.blog{
+    background-color: burlywood;
+}
+.heading{
+    color: #dc143c;
+}
+.kire{
+    color: blue;
+}
+#span.beiman{
+    color: #dc143c;
+    background-color: rgb(218, 209, 135);
+}
+
+img{
+    height: 10%;
+    width: 50%;
+}

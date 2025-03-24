@@ -1,0 +1,31 @@
+/*SELECTORTS  */
+*
+{
+    background-color: black;
+    color: aliceblue;
+}
+h3  
+{
+    /* element selectors */
+    background-color: rgb(203, 190, 0);
+    color: rgb(145, 12, 12);
+}
+
+#title
+{
+    /* id selectors */
+    background-color: #7bdce7;
+    color: black;
+}
+#intro
+{
+    /* id selectors */
+    background-color: chocolate;
+    color: black;
+}
+.content
+{
+    /* class selectors- for multiple class */
+    background-color:lightcoral;
+    color:rgb(87, 42, 165);
+}

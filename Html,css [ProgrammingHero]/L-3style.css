@@ -1,0 +1,14 @@
+div.blog{
+    border: 5px solid rgb(111, 72, 72);
+    margin: 2px ;
+    background-color: aqua;
+    padding: 20px;
+    height: 100px ;
+    width:500px ;
+}
+p{
+    margin: 1px 1px;
+}
+h1{
+    margin: 1px;
+}

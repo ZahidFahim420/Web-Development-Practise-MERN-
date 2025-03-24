@@ -1,0 +1,19 @@
+#box
+{
+    background-color: blue;
+    color: aliceblue;
+}
+/* .Heading1
+{
+    color: brown;
+} */
+
+h1,h2,h3
+{
+    color: blueviolet;
+}
+
+button{
+    color: rgb(17, 218, 17);
+    background-color: blue;
+}
