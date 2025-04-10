@@ -1,0 +1,53 @@
+div.firstdiv{
+    color: rgb(255, 6, 6);
+    background-color: blue;
+    opacity: 0.4 ;
+    /* When using the opacity property to add transparency to the background of an element, all of its child elements inherit the same transparency. This can make the text inside a fully transparent element hard to read. */
+}
+div.secdiv{
+    color: rgb(8, 39, 243);
+    background-color: rgba(0, 255, 255, 0.4); /*here 0.4 means 40 */
+    /*rgba = red blue green alpha values.
+     The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).  */
+    font-size: larger;
+}
+div.thirddiv{
+    background-color: aqua;
+    background-image: url(aa.gif);
+    height: 350px;
+    width: 400px;
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+
+    /* background-repeat: is a parameter for control image .
+    background-position: is parameter for define image position */
+
+    background-position:center;
+    /* background-position: right top; */
+    /* background-position:right bottom ; */
+    /* background-position: right; */
+
+    /* The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page): */
+    background-attachment: scroll;
+    /* background-attachment	Sets whether a background image is fixed or scrolls with the rest of the page */
+}
+/* Below Background shorthand */
+div.forthdiv{
+    height: 350px;
+    width: 400px;
+    /* background-color: #ffffff;
+    background-image: url("a.gif");
+    background-repeat: no-repeat;
+    background-position: right top; */
+
+    background: #c85656 url(a.gif) no-repeat scroll right;
+    /* Use the shorthand property to set the background properties in one declaration: */
+
+    /* When using the shorthand property the order of the property values is:
+    background-color
+    background-image
+    background-repeat
+    background-attachment
+    background-position */
+}

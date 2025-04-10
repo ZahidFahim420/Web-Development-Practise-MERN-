@@ -1,8 +1,8 @@
 /*SELECTORTS  */
 *
 {
-    background-color: black;
-    color: aliceblue;
+    background-color: rgb(116, 116, 116);
+    color: rgb(2, 18, 32);
 }
 h3  
 {
@@ -28,4 +28,16 @@ h3
     /* class selectors- for multiple class */
     background-color:lightcoral;
     color:rgb(87, 42, 165);
+}
+.pclass{
+    background-color: aquamarine;
+
+}
+p.pclass{
+    background-color: azure;
+
+}
+h4.pclass{
+    background: #843737;
+
 }
