@@ -1,0 +1,16 @@
+Component | FIFO or LIFO
+HTML parsing | FIFO
+CSS application | FIFO
+JavaScript normal | FIFO
+JavaScript Call Stack (function execution) | LIFO
+JavaScript Event Queue (browser events) | FIFO
+
+
+
+
+
+Language | Execution Behavior | FIFO/LIFO
+HTML | Line-by-line top to bottom | FIFO (First In First Out)
+CSS | Applied while reading, based on cascade rules | FIFO for reading order
+JavaScript (Normal Execution) | Runs in order inside the script | FIFO for code inside scripts
+JavaScript (with Events, async things) | Special! It uses call stack (LIFO) and event queue (FIFO) | Both!
